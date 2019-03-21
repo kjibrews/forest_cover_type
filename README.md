@@ -16,3 +16,7 @@ There are 12 measures, but 54 columns of data (10 quantitative variables, 4 bina
 * sample_submission.csv - a sample submission file in the correct format
 
 ## Approach
+
+## Result
+* Scoring was based on Categorization Accuracy.
+* At the end of the competition, my final score was0.98045.
