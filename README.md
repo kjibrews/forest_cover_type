@@ -1,22 +1,18 @@
 # Forest Cover Type Classification
 
-This was a [Data Challenge](https://www.kaggle.com/c/fall-2018-stat-441841-data-challenge-1)done as part of University of Waterloo STAT 441 : Statistical Learning - Classification class. Using the data set borrowed from [Fashion MNIST](https://www.kaggle.com/zalando-research/fashionmnist/data) the aim was to predict the label for each id in the test set.
+This was a [Data Challenge](https://www.kaggle.com/c/fall-2018-stat-441841-data-challenge-2) hosted on Kaggle done as part of University of Waterloo STAT 441 : Statistical Learning - Classification class. Using the data set borrowed from [Forest CoverType dataset](https://archive.ics.uci.edu/ml/datasets/Covertype) the aim was to predict the forest cover type for each id in the test set.
 
 Restrictions
+* Test set from the original page can not be used
 * Test set information can not be used when developing model
 * 3 submissions per day
 
 ## Data
-Each row in the train and test sets represent a 28 by 28 image.
-The train and test set are similar except that the train set has an additional column *label*. Following are explanations of that column.
-
-Label | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- 
-Description | T-shirt/top | Trouser | Pullover | Dress | Coat | Sandal | Shirt | Sneaker | Bag | Ankle boot 
+There are 12 measures, but 54 columns of data (10 quantitative variables, 4 binary wilderness areas and 40 binary soil type variables).
 
 ## File Descriptions
-* fashion-mnist_train.csv - the training set
-* test_data.csv - the test set
+* train.csv - the training set
+* test.csv - the test set
 * sample_submission.csv - a sample submission file in the correct format
 
 ## Approach
